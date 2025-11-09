@@ -1,6 +1,5 @@
 #use python flask lightweight image
-
-FROM python-3.9:slim
+FROM python:3.9-slim
 
 #set WORKDIR
 WORKDIR /app
